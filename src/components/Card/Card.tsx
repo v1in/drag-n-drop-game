@@ -19,16 +19,15 @@ const Card: FC<IProps> = (props) => {
 
   const getImage = state?.image;
 
-  const hit = (e) => {
+  const handleHit = (e) => {
     e.containerElem.style.visibility = 'hidden';
     setState({image: e.dragData.image});
-    console.log({'onHit event passed to target:': e});
   };
 
   return (
     <div className={clsx('column m-2 p-0', classes)}>
       <DropTarget
-        onHit={hit}
+        onHit={handleHit}
         onDragLeave={onDragLeave}
         targetKey={targetKey}
         dropData={{image}}>

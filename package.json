@@ -7,7 +7,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:generate-html": "react-scripts build && mv build/index.html build/i-want-to-play-a-game.html",
+    "build:generate-html": "react-scripts build && cp build/index.html build/i-want-to-play-a-game.html",
     "test": "react-scripts test",
     "test:watch": "jest --watch",
     "clear:jest": "npx jest --clearCache",

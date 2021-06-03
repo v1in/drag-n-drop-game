@@ -9,8 +9,6 @@ interface IProps {
   onDragStart?: (e?: any) => void;
   onDrop?: (e?: any) => void;
   disappear?: boolean;
-
-  // @TODO: Remove
   onDrag?: (e?: any) => void;
   onDragEnd?: (e?: any) => void;
   onDragEnter?: (e?: any) => void;
