@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='1000' height='500' preserveAspectRatio='none' viewBox='0 0 1000 500'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1721%26quot%3b)' fill='none'%3e%3crect width='1000' height='500' x='0' y='0' fill='url(%23SvgjsRadialGradient1722)'%3e%3c/rect%3e%3ccircle r='83.335' cx='-80.49' cy='56' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='83.335' cx='352.08' cy='355.43' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='132.585' cx='528.84' cy='200.36' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='114.605' cx='654.48' cy='81.87' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='151.04' cx='277.53' cy='135.18' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='83.875' cx='550.54' cy='86.48' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='42.48' cx='228.58' cy='425.23' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='43.885' cx='577.93' cy='336.42' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='96.345' cx='181.07' cy='67.98' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3ccircle r='60.005' cx='188.44' cy='294.9' stroke='%2303266d' stroke-opacity='0.02' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1721'%3e%3crect width='1000' height='500' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3cradialGradient cx='100%25' cy='0%25' r='1118.03' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1722'%3e%3cstop stop-color='rgba(240%2c 243%2c 250%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.root {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-p {
+  color: #8e8e8e;
+}
+
+::selection {
+  background-color: transparent;
+  color: currentColor;
+}

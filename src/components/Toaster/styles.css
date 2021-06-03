@@ -1,0 +1,31 @@
+.modal {
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  will-change: transform;
+  border-radius: 16px;
+  border: 1px solid #c5c5c5;
+}
+
+.modal-background {
+  height: inherit;
+  width: inherit;
+}
+
+.modal-content {
+  width: inherit;
+}
+
+.modal-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal-close::before,
+.modal-close::after {
+  background: #000;
+}
+
+hr {
+  margin: 5px 0;
+}
