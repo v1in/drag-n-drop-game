@@ -33,7 +33,7 @@ const Card: FC<IProps> = (props) => {
         targetKey={targetKey}
         dropData={{image}}>
         <div className='box p-1'>
-          <figure className='image is-128x128'>
+          <figure className='image is-128x128 is-drag-image'>
             {state && <img src={getImage} alt='' />}
           </figure>
         </div>

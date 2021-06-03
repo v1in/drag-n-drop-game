@@ -43,7 +43,7 @@ const Draggable: FC<IProps> = (props) => {
         disappearDraggedElement={disappear}>
         <div className='box p-0'>
           {image && (
-            <figure className='image is-128x128'>
+            <figure className='image is-128x128 is-drag-image'>
               <img src={image} alt='' draggable={false} />
             </figure>
           )}
