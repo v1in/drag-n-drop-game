@@ -54,7 +54,6 @@ const GamePage: FC = () => {
     if (countdown === 0) {
       stopCountdown();
     }
-    return () => clearInterval(winTimerId.current);
   }, [countdown]);
 
   useEffect(() => {

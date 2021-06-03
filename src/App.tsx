@@ -12,7 +12,7 @@ BrowserRouter: When we have big production-ready applications which serve backen
 
 const App: FC = () => {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={BASE_URL}>
       <div className='root'>
         <div>
           <Route exact path={BASE_URL} component={HomePage} />
