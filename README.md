@@ -6,6 +6,8 @@ Use drag-n-drop to do this. Simple? Who knows? \
 After you do this - you will be shown a message about your success and the game will restart in 10 seconds. \
 Sounds interested? Let's play 👾
 
+## Demo [https://drag-n-drop-game.vercel.app/](https://drag-n-drop-game.vercel.app)
+
 ### Tech stack:
 
 - React with Hooks
